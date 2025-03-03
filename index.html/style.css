@@ -1,0 +1,35 @@
+body {
+  background: 
+      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+      url('south-park-bus-stop.jpg');
+  background-size: cover;
+  background-position: center
+  height: 100vh
+  margin: 0;
+  font-family: Arial, sans-serif
+  
+}
+h1, H1, h2, p {
+  color: white;
+  line-height: 1.5;
+  margin: 15px;
+}
+<style> 
+.image-float { 
+    float: right; 
+    margin: 0 0 10px 10px; 
+    max-width: 300px; 
+} 
+</style>
+
+img {
+  float: left;
+}
+.leftimg {
+  float:left; 
+  margin: 7px 7px 7px 0; 
+ }
+ .rightimg  {
+  float: right; 
+  margin: 7px 0 7px 7px;
+}
